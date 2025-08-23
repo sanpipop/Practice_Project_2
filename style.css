@@ -44,6 +44,10 @@ p {
   right: 10px;
   z-index: -1;
 }
+.cloud-top,
+.cloud-bottom {
+  max-height: 150px;
+}
 .text-header {
   background-color: #fffbde;
   padding: 40px;
@@ -73,5 +77,8 @@ p {
   #skills > .container {
     max-width: 1200px;
   }
+  .cloud-top,
+  .cloud-bottom {
+    max-height: 200px;
+  }
 }
-
